@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo1\\build\\intermediates\\res\\merged\\debug\\layout\\layout_notify.xml",
+        "source": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo1\\src\\main\\res\\layout\\layout_notify.xml"
+    },
+    {
+        "merged": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo1\\build\\intermediates\\res\\merged\\debug\\layout\\simple_4.xml",
+        "source": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo1\\src\\main\\res\\layout\\simple_4.xml"
+    },
+    {
+        "merged": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo1\\build\\intermediates\\res\\merged\\debug\\layout\\main_fragment.xml",
+        "source": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo1\\src\\main\\res\\layout\\main_fragment.xml"
+    },
+    {
+        "merged": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo1\\build\\intermediates\\res\\merged\\debug\\layout\\simple.xml",
+        "source": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo1\\src\\main\\res\\layout\\simple.xml"
+    },
+    {
+        "merged": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo1\\build\\intermediates\\res\\merged\\debug\\layout\\simple_2.xml",
+        "source": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo1\\src\\main\\res\\layout\\simple_2.xml"
+    },
+    {
+        "merged": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo1\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo1\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo1\\build\\intermediates\\res\\merged\\debug\\layout\\content_lib_main.xml",
+        "source": "C:\\Users\\ex-zhoulai.BANKE\\.android\\build-cache\\c0e0609d53ef3cf1f865da1c7d04e4386996907d\\output\\res\\layout\\content_lib_main.xml"
+    },
+    {
+        "merged": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo1\\build\\intermediates\\res\\merged\\debug\\layout\\lib_activity_main.xml",
+        "source": "C:\\Users\\ex-zhoulai.BANKE\\.android\\build-cache\\c0e0609d53ef3cf1f865da1c7d04e4386996907d\\output\\res\\layout\\lib_activity_main.xml"
+    }
+]

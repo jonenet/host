@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo2\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\ex-zhoulai.BANKE\\.android\\build-cache\\a8bdb0489ceffef84f8e94297f27ed3164e20cd0\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo2\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\ex-zhoulai.BANKE\\.android\\build-cache\\a8bdb0489ceffef84f8e94297f27ed3164e20cd0\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo2\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\ex-zhoulai.BANKE\\.android\\build-cache\\a8bdb0489ceffef84f8e94297f27ed3164e20cd0\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo2\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\ex-zhoulai.BANKE\\.android\\build-cache\\a8bdb0489ceffef84f8e94297f27ed3164e20cd0\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo2\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\ex-zhoulai.BANKE\\.android\\build-cache\\a8bdb0489ceffef84f8e94297f27ed3164e20cd0\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\DEVSource\\MyApp\\MyWorkSpace01\\FirstSpace\\ProjectTest01GitMaster\\RePlugin\\replugin-sample\\host\\demo2\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\ex-zhoulai.BANKE\\.android\\build-cache\\a8bdb0489ceffef84f8e94297f27ed3164e20cd0\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    }
+]
