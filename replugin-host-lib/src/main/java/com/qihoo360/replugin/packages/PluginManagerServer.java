@@ -122,6 +122,7 @@ public class PluginManagerServer {
         return mList.cloneList();
     }
 
+
     private PluginInfo installLocked(String path) {
         final boolean verifySignEnable = RePlugin.getConfig().getVerifySign();
         final int flags = verifySignEnable ? PackageManager.GET_META_DATA | PackageManager.GET_SIGNATURES : PackageManager.GET_META_DATA;

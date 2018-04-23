@@ -306,11 +306,11 @@ class PmBase {
         PluginProcessMain.schedulePluginProcessLoop(PluginProcessMain.CHECK_STAGE1_DELAY);
 
         // 兼容即将废弃的p-n方案 by Jiongxuan Zhang
-        //这个类里封装了各种插件类型的集合，还有生成插件模型信息和删除信息的方法
+        //这个类里封装了各种插件类型的集合，还有生成插件模型信息和删除信息的方法,将内置插件初始化
         mAll = new Builder.PxAll();
 
         //搜索所有本地插件和V5插件信息,并添加进Builder集合中就是mAll字段,然后删除一些不符合规则的插件信息
-        //这里搜索了所以本地插件，也就是放在assest中的插件，是通过插件自动生成的json文件来扫描的
+        //这里搜索了所以本地插件，也就是放在assets中的插件，是通过插件自动生成的json文件来扫描的
         //v5是通过context.getDir路径来扫描的
         Builder.builder(mContext, mAll);
 

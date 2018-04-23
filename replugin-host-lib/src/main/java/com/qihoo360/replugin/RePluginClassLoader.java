@@ -71,7 +71,7 @@ public class RePluginClassLoader extends PathClassLoader {
         super("", "", parent);
         mOrig = orig;
 
-        // 将原来宿主里的关键字段，拷贝到这个对象上，这样骗系统以为用的还是以前的东西（尤其是DexPathList）
+        // 将原来宿主里的关键字段，拷贝到这个对象上，这样骗系统以为用的还是以前的东西（尤其是 DexPathList）
         // 注意，这里用的是“浅拷贝”
         // Added by Jiongxuan Zhang
         copyFromOriginal(orig);
@@ -144,12 +144,14 @@ public class RePluginClassLoader extends PathClassLoader {
     protected Class<?> loadClass(String className, boolean resolve) throws ClassNotFoundException {
         //
         Class<?> c = null;
+        //拦截类的加载过程，判断要加载的类是否存在对应的插件信息，如果有从插件中加载
         c = PMF.loadClass(className, resolve);
         if (c != null) {
             return c;
         }
         //
         try {
+            //如果没有在插件中找到该类，使用宿主原来的 ClassLoader 加载
             c = mOrig.loadClass(className);
             // 只有开启“详细日志”才会输出，防止“刷屏”现象
             if (LogDebug.LOG && RePlugin.getConfig().isPrintDetailLog()) {
