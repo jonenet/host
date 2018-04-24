@@ -61,7 +61,8 @@ public class SampleApplication extends RePluginApplication {
 
         // FIXME 若宿主为Release，则此处应加上您认为"合法"的插件的签名，例如，可以写上"宿主"自己的。
         // RePlugin.addCertSignature("AAAAAAAAA");
-
+        //打印详细日志，可能会刷屏
+        c.setPrintDetailLog(true);
         // 在Art上，优化第一次loadDex的速度
         // c.setOptimizeArtLoadDex(true);
         return c;

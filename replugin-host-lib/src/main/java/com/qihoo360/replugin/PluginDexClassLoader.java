@@ -105,7 +105,7 @@ public class PluginDexClassLoader extends DexClassLoader {
             // Do not throw "e" now
             cnfException = e;
         }
-
+        //        findLoadedClass
         // 若插件里没有此类，则会从宿主ClassLoader中找，找到了则直接返回
         // 注意：需要读取isUseHostClassIfNotFound开关。默认为关闭的。可参见该开关的说明
         if (RePlugin.getConfig().isUseHostClassIfNotFound()) {

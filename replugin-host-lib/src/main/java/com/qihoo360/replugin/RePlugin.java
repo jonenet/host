@@ -243,7 +243,7 @@ public class RePlugin {
             return false;
         }
         String plugin = cn.getPackageName();
-        String cls = cn.getClassName();
+        String cls = cn.getClassName();         //目的，看什么时候使用坑位的
         return Factory.startActivityWithNoInjectCN(context, intent, plugin, cls, IPluginManager.PROCESS_AUTO);
     }
 
@@ -1003,6 +1003,7 @@ public class RePlugin {
             PMF.init(app);
             //加载默认插件
             PMF.callAttach();
+
 
             //标记已经初始化完成,完成以后将不能再修改RepluginConfig类中的设置
             sAttached = true;

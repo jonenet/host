@@ -433,7 +433,7 @@ public class PluginCommImpl {
                 return null;
             }
 
-            // 远程分配坑位
+            //TODO 远程分配坑位
             container = client.allocActivityContainer(plugin, process, ai.name, intent);
             if (LOG) {
                 LogDebug.i(PLUGIN_TAG, "alloc success: container=" + container + " plugin=" + plugin + " activity=" + activity);
@@ -464,6 +464,7 @@ public class PluginCommImpl {
         ii.setProcess(IPluginManager.PROCESS_AUTO);
         ii.setContainer(container);
         ii.setCounter(0);
+        // TODO 找到了替换的坑位，进行跳转，这里的原理需要弄懂
         return new ComponentName(IPC.getPackageName(), container);
     }
 

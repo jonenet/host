@@ -154,6 +154,9 @@ public class PluginProviderStub {
     }
 
     /**
+     *
+     * 当前进程尝试通过ContentResolver去访问ProcessPitProviderPersist以获取一个与Persistent进程通信的IBinder对象，
+     * 但是ProcessPitProviderPersist在第一次被访问时并没有运行起来，于是Android系统会自动启动它
      * @param context
      * @param selection
      * @return
